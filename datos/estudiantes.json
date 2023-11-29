@@ -1,0 +1,38 @@
+[
+    {
+      "Nombre": "Juan Gabriel",
+      "Correo": "juan.gabriel@gmail.com",
+      "Telefono": "1234567890",
+      "Habitacion": "101",
+      "Opcion": "-"
+    },
+    {
+      "Nombre": "Maria Paulina",
+      "Correo": "maria.paulina@gmail.com",
+      "Telefono": "9876543210",
+      "Habitacion": "202",
+      "Opcion": "-"
+    },
+    {
+      "Nombre": "Pedro Gonzales",
+      "Correo": "pedro.gonzales@gmail.com",
+      "Telefono": "8371832923",
+      "Habitacion": "303",
+      "Opcion": "-"
+    },
+    {
+      "Nombre": "Margarita Cedeño",
+      "Correo": "margarita.cedeño@gmail.com",
+      "Telefono": "1222121212",
+      "Habitacion": "404",
+      "Opcion": "-"
+    },
+    {
+      "Nombre": "Milagros Cheme",
+      "Correo": "milagros.cheme@gmail.com",
+      "Telefono": "121231212",
+      "Habitacion": "505",
+      "Opcion": "-"
+    }
+  ]
+  

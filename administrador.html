@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion | Administrador</title>
+    <link rel="stylesheet" type="text/css" href="styles/estilos.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+  <header class="header">
+    <img src="images/logo-uleam.png" alt="Logo" class="logo">
+  </header>
+	<div class="contenedor-tabla">
+		  <h1>Gestión de Residencia Universitaria</h1>
+		  <main>
+			<h1>Buscar la lista de habitaciones</h1>
+		    <div class="button-datos-contenedor">
+				<button onclick="cargarDatosXML()" class="datos-button" >Cargar datos XML</button>
+			</div>
+			  <h2>Habitaciones:</h2>
+			  <table id="habitaciones-tabla" class="tabla-habitaciones">
+				  <thead>
+				  <tr>
+					  <th>Número de habitacion</th>
+					  <th>Tipo de habitacion</th>
+					  <th>Capacidad</th>
+					  <th>Precio</th>
+				  </tr>
+				  </thead>
+				  <tbody id="habitaciones-tabla-body"></tbody>
+			  </table>
+			<div class="botones-habitaciones">
+			  <button type="submit" id="agregar-habitacion">Agregar habitación</button>
+			  <button type="submit" id="quitar-habitacion">Quitar habitación</button>
+			</div>
+		  </main>
+		</div>
+			<div class="contenedor-tabla">
+			<h2>Lista de Estudiantes</h2>
+			<h1>Buscar la lista de Estudiantes</h1>
+			<div class="button-datos-contenedor">
+				<button onclick="cargarDatosJSON()" class="datos-button">Cargar datos JSON</button>
+			  </div>			
+			<h2>Estudiantes:</h2>
+				<table id="estudiantes-tabla" class="tabla-estudiantes">
+				  <thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Correo</th>
+						<th>Teléfono</th>
+						<th>Habitación</th>
+						<th>Opción</th>
+					</tr>
+				  </thead>
+				  <tbody id="estudiantes-tabla-body"></tbody>
+				</table>
+			<div class="registro-admin-boton">
+				<button type="submit" onclick="mostrarFormulario()">Agregar Estudiante</button>
+			</div>
+			  <form id="registro-estudiante" style="display: none;">
+				<h2>Registrar nuevo estudiante</h2>
+				<label for="nombre">Nombre completo</label>
+				<input type="text" id="nombre" name="nombre" required>
+				<label for="email">Correo electrónico</label>
+				<input type="email" id="email" name="email" required>
+				<label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required maxLength="10">
+				<label for="tipo-habitacion">Habitación asignada</label>
+				<select id="tipo-habitacion" name="habitacion" required>
+				  <option value="">Seleccione una habitación</option>
+				  <option value="101">101</option>
+				  <option value="201">201</option>
+				  <option value="301">301</option>
+				</select>
+					<button type="submit">Registrar</button>
+			  </form>
+            </div>
+			<footer class="footer">
+			   <strong>MANTA - MANABÍ - ECUADOR</strong>  &copy; Copyright 2023
+			</footer>
+			<script src="admin.js"></script>
+
+  </body>
+</html>

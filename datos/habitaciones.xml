@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habitaciones>
+  <habitacion>
+    <numero>101</numero>
+    <tipo>Individual</tipo>
+    <capacidad>1</capacidad>
+    <precio>50</precio>
+  </habitacion>
+  <habitacion>
+    <numero>202</numero>
+    <tipo>Doble</tipo>
+    <capacidad>2</capacidad>
+    <precio>80</precio>
+  </habitacion>
+  <habitacion>
+    <numero>303</numero>
+    <tipo>Suite</tipo>
+    <capacidad>4</capacidad>
+    <precio>150</precio>
+  </habitacion>
+   <habitacion>
+    <numero>404</numero>
+    <tipo>Doble</tipo>
+    <capacidad>2</capacidad>
+    <precio>200</precio>
+  </habitacion>
+   <habitacion>
+    <numero>505</numero>
+    <tipo>Individual</tipo>
+    <capacidad>1</capacidad>
+    <precio>50</precio>
+  </habitacion>
+   <habitacion>
+    <numero>606</numero>
+    <tipo>Suite</tipo>
+    <capacidad>4</capacidad>
+    <precio>200</precio>
+  </habitacion>
+</habitaciones>
